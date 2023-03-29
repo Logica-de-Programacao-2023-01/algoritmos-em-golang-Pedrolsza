@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num float64
+	println("digite seu número:")
+	fmt.Scan(&num)
+	var num1 float64
+	println("digite seu segundo número:")
+	fmt.Scan(&num1)
+	var num2 float64
+	println("digite seu terceiro número:")
+	fmt.Scan(&num2)
+	println("suas médias poderadas de 2,3,5 é:", ((num*2)+(num1*2)+(num2*2))/2, ((num*3)+(num1*3)+(num2*3))/3, ((num*5)+(num1*5)+(num2*5))/5)
+}
