@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num float64
+	println("qual seu peso?")
+	fmt.Scan(&num)
+	println("seu peso em libras é", num*2.2)
+}
