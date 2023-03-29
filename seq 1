@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num int32
+	println("Escreva seu primeiro número:")
+	fmt.Scan(&num)
+	var num1 int32
+	println("Escreva seu segundo número:")
+	fmt.Scan(&num1)
+	var num2 int32
+	println("escreva seu terceiro número: ")
+	fmt.Scan(&num2)
+	var resultado int32
+	println("Seu resultado é:", num+num1+num2)
+	fmt.Scan(&resultado)
+}
