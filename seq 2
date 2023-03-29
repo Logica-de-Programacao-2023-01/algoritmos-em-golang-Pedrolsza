@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num int32
+	println("Digite um número")
+	fmt.Scan(&num)
+	var dobro int32
+	println("Dobro do seu número:", num*2)
+	fmt.Scan(&dobro)
+	var triplo int32
+	println("Triplo do seu número:", num*3)
+	fmt.Scan(&triplo)
+	var quad int32
+	println("Quádruplo do seu número:", num*4)
+	fmt.Scan(&quad)
+}
