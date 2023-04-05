@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num int32
+	println("digite um numero")
+	fmt.Scan(&num)
+	var num1 int32
+	println("digite outro numero")
+	fmt.Scan(&num1)
+	if num > num1 {
+		fmt.Println("seu número é:", num)
+	}
+	if num < num1 {
+		fmt.Println("seu numero é:", num1)
+	}
+}
