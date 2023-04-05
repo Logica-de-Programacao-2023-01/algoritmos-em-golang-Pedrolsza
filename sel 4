@@ -1,0 +1,26 @@
+package main
+
+import "fmt"
+
+func main() {
+	var sexo string
+	fmt.Printf("qual seu sexo?")
+	fmt.Scan(&sexo)
+	var peso int
+	fmt.Printf("qual seu peso?")
+	fmt.Scan(&peso)
+	var altura int
+	fmt.Printf("qual sua altura em cm")
+	fmt.Scan(&altura)
+	var imc float64
+	fmt.Println(peso / (altura * altura))
+	fmt.Scan(&imc)
+	if imc < 18.5 {
+		fmt.Printf("você esta abaixo do peso")
+	}
+	if imc < 24.9 {
+		fmt.Printf("você esta com o peso normal")
+	}
+	if imc < 29.9 {
+		fmt.Printf("você está com sobrepeso")
+	}
