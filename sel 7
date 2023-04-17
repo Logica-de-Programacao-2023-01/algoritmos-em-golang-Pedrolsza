@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+	var salário float64
+	fmt.Println("qual é o seu salário?")
+	fmt.Scan(&salário)
+	if salário <= 1000 {
+		var resultado float64
+		fmt.Scan(&resultado)
+		resultado = salário * 1.1
+		fmt.Println("seu novo salário é", resultado)
+	} else {
+		var resultado1 float64
+		fmt.Scan(resultado1)
+		resultado1 = salário * 1.05
+		fmt.Println("seu salário é", resultado1)
+	}
+}
