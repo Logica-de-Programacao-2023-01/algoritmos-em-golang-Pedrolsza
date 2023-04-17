@@ -1,0 +1,24 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var num int
+	fmt.Println("Escreva seu primeiro número")
+	fmt.Scan(&num)
+	var num1 int
+	fmt.Println("Escreva seu segundo número")
+	fmt.Scan(&num1)
+	if num >= 0 && num1 >= 0 {
+		var resultado int
+		resultado = num * num1
+		fmt.Println("seu resultado é", resultado)
+		fmt.Scan(&resultado)
+	} else {
+		var resultado1 int
+		resultado1 = num + num1
+		fmt.Println("seu resultado é", resultado1)
+		fmt.Scan(&resultado1)
+	}
+}
