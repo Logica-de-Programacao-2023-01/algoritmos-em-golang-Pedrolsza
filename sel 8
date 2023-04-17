@@ -1,0 +1,25 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	fmt.Println("escreva um número de 1 a 7")
+	var num int
+	fmt.Scan(&num)
+	if num == 1 {
+		fmt.Println("domingo")
+	} else if num == 2 {
+		fmt.Println("segunda")
+	} else if num == 3 {
+		fmt.Println("terça")
+	} else if num == 4 {
+		fmt.Println("quarta")
+	} else if num == 5 {
+		fmt.Println("quinta")
+	} else if num == 6 {
+		fmt.Println("sexta")
+	} else if num == 7 {
+		fmt.Println("sábado")
+	}
+}
