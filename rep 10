@@ -1,0 +1,26 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num, maior int
+	maior = 0
+
+	fmt.Println("Digite uma sequência de números (para parar, digite 0):")
+
+	for {
+		fmt.Scan(&num)
+		if num == 0 {
+			break
+		}
+		if num > maior {
+			maior = num
+		}
+	}
+
+	if maior == 0 {
+		fmt.Println("Nenhum número foi digitado.")
+	} else {
+		fmt.Printf("O maior número digitado foi %d.\n", maior)
+	}
+}
