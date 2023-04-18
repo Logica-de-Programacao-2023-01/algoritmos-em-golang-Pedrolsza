@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num, soma float64
+	var contador int
+	fmt.Println("digite uma sequencia de numeros inteiros(digita 0 para acabar)")
+	for {
+		fmt.Scan(&num)
+		if num == 0 {
+			break
+		}
+		soma += num
+		contador++
+	}
+	if contador == 0 {
+		fmt.Println("nenhum numero lido")
+	} else {
+		media := soma / float64(contador)
+		fmt.Printf("A média aritmética é: %.2f\n", media)a
+	}
+}
